@@ -22,13 +22,13 @@ public class moverkeyboard : MonoBehaviour
         if(Input.GetKey(up)){
             transform.position+= new Vector3(0,stepsize * Time.deltaTime,0);
         }
-        else if(Input.GetKey(down)){
+         if(Input.GetKey(down)){
             transform.position+= new Vector3(0,-stepsize * Time.deltaTime,0);
         }
-        else if(Input.GetKey(left)){
+         if(Input.GetKey(left)){
             transform.position+= new Vector3(-stepsize * Time.deltaTime,0,0);
         }
-        else if(Input.GetKey(right)){
+         if(Input.GetKey(right)){
             transform.position+= new Vector3(stepsize * Time.deltaTime,0,0);
         }
     }
